@@ -1,0 +1,13 @@
+[Unit]
+Description=MTProxy
+After=network.target 
+
+[Service]
+Type=forking
+ExecStart=<path/to/>mtproxyd.sh start
+ExecStop=<path/to/>mtproxyd.sh stop
+User=nobody
+Group=nobody
+
+[Install]
+WantedBy=multi-user.target

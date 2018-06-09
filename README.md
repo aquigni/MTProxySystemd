@@ -1,6 +1,8 @@
 # MTProxy Systemd Service
 
-##Deploying your own MTProxy as Systemd service
+Merged to https://github.com/aquigni/TON-MTProxy.git
+
+**Deploying your own MTProxy as Systemd service**
 
 `nano /lib/systemd/system/mtproxyd.service`
 
